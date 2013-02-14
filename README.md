@@ -12,7 +12,7 @@ Currently using the 3.1 branch.
 
 ### Update
 
-
+`cd` into `public` and run `composer udpate`
 
 
 
@@ -27,6 +27,13 @@ Currently using the 3.1 branch.
 		- `translatable-subsites`
 			- `translatable-subsites-widgets`
 			- `translatable-subsites-myothermodule`
+- Make a tag after changes in the master branch
+
+Tagging:    
+Create tag: `git tag -a releaseX -m 'Short description'`
+Push tag: `git push origin releaseX`
+
+
 
 
 ## Idea: Make other versions of this sandbox
