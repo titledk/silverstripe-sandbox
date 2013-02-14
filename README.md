@@ -10,6 +10,12 @@ Currently using the 3.1 branch.
 ## Instructions
 
 
+### Switching between branches
+
+1. Checkout branch: `git checkout MYBRANCH`
+2. Run composer udpate - this will add/remove branch specific modules for you: `cd public; composer update;`
+
+
 ### Update
 
 `cd` into `public` and run `composer udpate`
