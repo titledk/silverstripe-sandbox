@@ -15,6 +15,26 @@ Currently using the 3.1 branch.
 `cd` into `public` and run `composer udpate`
 
 
+### Installing Realeased modules
+
+Run `composer search silverstripe`    
+This seems to return all released silverstripe modules - now you can search for yours.    
+This is probably a good canidate for a simple **grep** command.
+
+Now you can install your module like this: `composer require silverstripe/forum:*`
+
+
+
+
+### Installing unrelease modules
+
+Add the repo name to your `composer.json` file, and run `composer udate`
+
+
+
+### More info on installation
+
+<http://doc.silverstripe.org/framework/en/installation/composer>
 
 
 
