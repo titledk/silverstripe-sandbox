@@ -6,6 +6,18 @@ Based on the Silverstripe installer (`composer create-project silverstripe/insta
 
 Currently using the 3.1 branch.
 
+
+## Instructions
+
+
+### Update
+
+
+
+
+
+
+
 ## Rules
 
 - Master should stay as a clean install so it can easily be updated.

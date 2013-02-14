@@ -1,0 +1,10 @@
+/logs/
+/public/silverstripe-cache/
+/_ss_environment.php
+.idea
+.DS_Store
+
+public/cms/
+public/framework/
+public/themes/simple/
+public/themes/tutorial/
