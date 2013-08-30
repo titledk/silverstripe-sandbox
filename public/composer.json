@@ -1,11 +1,18 @@
 {
 	"name": "silverstripe/installer",
 	"description": "The SilverStripe Framework Installer",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:anselmdk/silverstripe-payment.git"
+		}
+	],	
 	"require": {
 		"php": ">=5.3.2",
 		"silverstripe/cms": "3.1.x-dev",
 		"silverstripe/framework": "3.1.x-dev",
-		"silverstripe-themes/simple": "*"
+		"silverstripe-themes/simple": "*",
+		"burnbright/silverstripe-shop": "1.0.*@dev"
 	},
 	"require-dev": {
 		"silverstripe/docsviewer": "*",
