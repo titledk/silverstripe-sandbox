@@ -14,4 +14,7 @@ public/shop/
 
 public/buildtools/
 public/docsviewer/
-public/testsession/
+public/testsession
+
+public/themes/bootstrap/
+public/themes/bootstrap_shop/

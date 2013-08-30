@@ -5,6 +5,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:anselmdk/silverstripe-payment.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:anselmdk/silverstripe-bootstrap-shop.git"
 		}
 	],	
 	"require": {
@@ -12,7 +16,9 @@
 		"silverstripe/cms": "3.1.x-dev",
 		"silverstripe/framework": "3.1.x-dev",
 		"silverstripe-themes/simple": "*",
-		"burnbright/silverstripe-shop": "1.0.*@dev"
+		"burnbright/silverstripe-shop": "1.0.*@dev",
+		"burnbright/bootstrap": "*",
+		"anselmdk/bootstrap-shop": "dev-ss3"
 	},
 	"require-dev": {
 		"silverstripe/docsviewer": "*",
