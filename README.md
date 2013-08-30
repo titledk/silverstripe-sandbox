@@ -18,14 +18,18 @@ Currently using the 3.1 branch.
 
 ### Update
 
-`cd` into `public` and run `composer udpate`
+`cd` into `public` and run `composer update --no-dev`    
+_(you might want to update Composer first: `sudo composer self-update`)_
 
 
 ### Installing Realeased modules
 
-Run `composer search silverstripe`    
+* Run `composer search silverstripe`    
 This seems to return all released silverstripe modules - now you can search for yours.    
 This is probably a good canidate for a simple **grep** command.
+* Check out http://addons.silverstripe.org
+* Theck the [Silverstripe Module List](https://github.com/anselmdk/ss3-resources/blob/master/modules.md)
+
 
 Now you can install your module like this: `composer require silverstripe/forum:*`
 
@@ -47,7 +51,7 @@ Add the repo name to your `composer.json` file, and run `composer udate`
 ## Rules
 
 - Master should stay as a clean install so it can easily be updated.
-- Each module combination should have an own branch, naming convenntions:
+- Each module combination should have an own branch, naming conventions:
 	- `eventcalendar`
 	- `translatable`
 		- `translatable-subsites`
@@ -60,11 +64,19 @@ Create tag: `git tag -a releaseX -m 'Short description'`
 Push tag: `git push origin releaseX`
 
 
+## Ideas
 
-
-## Idea: Make other versions of this sandbox
+### Make other versions of this sandbox
 
 - `silverstripe-sandbox-allmodules`:    
 <https://github.com/silverstripe/silverstripe-installer/blob/3.0-allmodules/composer.json>
 - `silverstripe-sandbox-express`:    
 <https://github.com/silverstripe-labs/silverstripe-express/blob/master/composer.json>
+
+### Auto Deployment of branches
+
+Auto deploy branches on each commit. Naming spec:
+
+	ss-shop.sandbox.title.dk
+	calendar.sandbox.title.dk
+
