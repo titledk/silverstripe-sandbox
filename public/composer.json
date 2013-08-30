@@ -9,6 +9,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:anselmdk/silverstripe-bootstrap-shop.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:titledk/silverstripe-cloudy-shop.git"
 		}
 	],	
 	"require": {
@@ -18,7 +22,9 @@
 		"silverstripe-themes/simple": "*",
 		"burnbright/silverstripe-shop": "1.0.*@dev",
 		"burnbright/bootstrap": "*",
-		"anselmdk/bootstrap-shop": "dev-ss3"
+		"burnbright/bootstrap-shop": "dev-ss3",
+		"titledk/cloudy": "dev-master",
+		"titledk/cloudy-shop": "dev-master"
 	},
 	"require-dev": {
 		"silverstripe/docsviewer": "*",

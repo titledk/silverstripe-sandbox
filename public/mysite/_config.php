@@ -13,6 +13,7 @@ MySQLDatabase::set_connection_charset('utf8');
 // Set the current theme. More themes can be downloaded from
 // http://www.silverstripe.org/themes/
 SSViewer::set_theme('bootstrap');
+SSViewer::set_theme('cloudy');
 //SSViewer::set_theme('simple');
 
 // Set the site locale

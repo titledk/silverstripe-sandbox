@@ -38,6 +38,8 @@ class Page_Controller extends ContentController {
 		Requirements::themedCSS('layout'); 
 		Requirements::themedCSS('typography'); 
 		Requirements::themedCSS('form'); 
+		
+		Requirements::css('themes/cloudy/css/modules/ss-shop.css');
 	}
 
 }
